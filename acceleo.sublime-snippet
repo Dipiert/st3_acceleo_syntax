@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[[import common /]]]></content>
-	<tabTrigger>import</tabTrigger>
-	<description>[import ${common} /]</description>
-	<!-- <scope>source.python</scope> -->
-</snippet>
