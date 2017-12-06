@@ -7,11 +7,27 @@ file_extensions:
 scope: source.mtl
 first_line_match: [comment encoding= .+ /]
   
-
 contexts:
   main:
-     - match: \b(import|template|public|private|protected|query|macro|comment)\b
-       scope: keyword.control.mtl
+     - match: (?x) \b(import|   
+                      template|
+                      module|
+                      query|
+                      macro|                  
+                      public|   
+                      private|
+                      protected|
+                      for|      
+                      if|
+                      file|
+                      let|
+                      trace|
+                      protected|
+                      super|
+                      comment|
+                      )\b
+
+       scope: keyword.control.mtl 
 
 # Esto funciona pero no sé todavía si lo necesito así
 # - match: (\[import .+\s?\\]|\[template (public|protected|private) .+ \(.+\s?:.+\s?\)\s?\\])
