@@ -1,0 +1,17 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: Acceleo
+file_extensions:
+  - mtl
+scope: source.mtl
+first_line_match: [comment encoding= .+ /]
+  
+
+contexts:
+  main:
+     - match: \b(import|template|public|private|protected|query|macro|comment)\b
+       scope: keyword.control.mtl
+
+# Esto funciona pero no sé todavía si lo necesito así
+# - match: (\[import .+\s?\\]|\[template (public|protected|private) .+ \(.+\s?:.+\s?\)\s?\\])
