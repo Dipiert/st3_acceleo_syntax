@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[[expression/]]></content>
+	<tabTrigger>[</tabTrigger>
+	<description>[${expression}/]</description>
+</snippet>

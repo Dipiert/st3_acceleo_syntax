@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[macro public name(arg : Type) : String]
+	
+[/macro]
+]]></content>
+	<tabTrigger>macro</tabTrigger>
+	<description>[macro public ${name}(${arg} : ${Type}) : ${String}] [/macro]</description>
+</snippet>

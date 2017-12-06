@@ -1,12 +1,10 @@
 %YAML 1.2
 ---
-# See http://www.sublimetext.com/docs/3/syntax.html
 name: Acceleo
-file_extensions:
+file_extensions: 
   - mtl
 scope: source.mtl
-first_line_match: [comment encoding= .+ /]
-  
+
 contexts:
   main:
      - match: (?x) \b(import|   

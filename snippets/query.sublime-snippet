@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[[query public name(arg : Type) : OclAny = self /]]]></content>
+	<tabTrigger>query</tabTrigger>
+	<description>[query public name(arg : Type) : OclAny = self /]</description>
+</snippet>

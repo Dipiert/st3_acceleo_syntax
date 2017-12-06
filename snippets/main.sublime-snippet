@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[[comment @main /]]]></content>
+	<tabTrigger>main</tabTrigger>
+	<description>[comment @main /]</description>
+</snippet>

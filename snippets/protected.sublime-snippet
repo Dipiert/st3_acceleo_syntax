@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[protected ('protected')]
+	block_expression
+[/protected]]]></content>
+	<tabTrigger>protected</tabTrigger>
+	<description>[protected ('${protected}')] ${block_expression} [/protected]</description>
+</snippet>

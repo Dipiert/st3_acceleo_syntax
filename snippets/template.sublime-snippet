@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[template public name(arg : Type)]
+	template_expression 
+[/template]]]>
+ </content>
+	<tabTrigger>template</tabTrigger>
+	<description>[template ${public} ${name}(${arg} : ${Type})] ${template_expression} [/template]</description>
+</snippet>

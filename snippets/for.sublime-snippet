@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[for (it : Type | expression)]
+	block_expression
+[/for]
+]]></content>
+	<tabTrigger>for</tabTrigger>
+	<description>[for (${it} : ${Type} | ${expression})] ${block_expression} [/for]</description>
+</snippet>

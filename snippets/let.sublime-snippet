@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+[let var : Type = self]
+	block_expression
+[/let]
+]]></content>
+	<tabTrigger>let</tabTrigger>
+	<description>[let ${var} : ${Type} = ${self}] ${block_expression} [/let]</description>
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[if (condition)]
+	block_expression
+[/if]
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<description>[if (${condition})] ${block_expression} [/if]</description>
+</snippet>

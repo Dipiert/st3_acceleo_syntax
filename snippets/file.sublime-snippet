@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[file (path, false, 'UTF-8')]
+	file_expression
+[/file]]]>
+	</content>
+	<tabTrigger>file</tabTrigger>
+	<description>[file (${path}, ${false}, 'UTF-8')] ${file_expression} [/file]</description>
+</snippet>
